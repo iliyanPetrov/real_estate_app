@@ -41,7 +41,7 @@ onBeforeMount(async () => {
 <style scoped>
 .content-wrapper {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: auto 8fr;
     gap: 1rem;
 }
 

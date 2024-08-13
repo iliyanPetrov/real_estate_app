@@ -46,3 +46,12 @@
     --color-text: var(--vt-c-text-dark-2);
   }
 } */
+ 
+/* body,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */

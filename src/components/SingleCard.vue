@@ -1,7 +1,11 @@
 <script setup>
+import { ref } from 'vue';
+
 defineProps( {
     house: Object,
 } )
+
+// const style = ref( `background-image: url(../assets/house-1.png)` );
 </script>
 
 <template>
@@ -9,8 +13,8 @@ defineProps( {
         <header> {{ house.cityName }} </header>
         <!-- make header clickable to open other houses in the same city -->
         <div class="wrapper">
-            <section>
-                some house picture
+            <section :style="style">
+                <span class="backup-text">"some house picture</span>
             </section>
             <aside>
                 <span class="title"> neighborhood:</span>
@@ -21,7 +25,7 @@ defineProps( {
                 <span> {{ house.ownerPhone }} </span>
                 <span class="title"> email: </span>
                 <span>{{ house.ownerEmail }} </span>
-                <!-- make this  <p> clickable -->
+                <!-- make this  <span> clickable -->
                 <span class="bottom"> more details...</span>
             </aside>
             <footer>
@@ -35,7 +39,8 @@ defineProps( {
 
 <style scoped>
 article {
-    min-height: 300px;
+    min-height: 460px;
+    min-width: 560px;
     padding: 1rem;
     border: 2px solid var(--secondary);
     border-radius: 5px;
@@ -60,15 +65,26 @@ header {
         min-height: 240px;
     }
 
-    section {
-        background-image: url(../assets/house-1.png);
-    }
-
     section,
     aside,
     footer {
         border: 2px solid var(--secondary);
     }
+}
+
+section {
+    background-color: rgba(100, 148, 237, 0.611);
+    background-image: url(../assets/house-6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backup-text {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: none;
 }
 
 aside {
@@ -95,6 +111,7 @@ aside {
         /* justify-self: flex-end; */
         /* why isn't this working? */
     }
+
     .bottom:hover {
         transition: 0.35s;
         background-color: rgb(237, 217, 247);
