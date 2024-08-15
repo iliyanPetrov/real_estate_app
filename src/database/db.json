@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-1.png",
         "cityName": "New York",
         "postCode": "10001",
         "neighborhood": "Manhattan",
@@ -32,7 +32,7 @@
     },
     {
         "id": 2,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-2.png",
         "cityName": "Los Angeles",
         "postCode": "90001",
         "neighborhood": "Downtown",
@@ -63,7 +63,7 @@
     },
     {
         "id": 3,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-3.png",
         "cityName": "Chicago",
         "postCode": "60601",
         "neighborhood": "The Loop",
@@ -94,7 +94,7 @@
     },
     {
         "id": 4,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-4.png",
         "cityName": "San Francisco",
         "postCode": "94101",
         "neighborhood": "Fisherman's Wharf",
@@ -125,7 +125,7 @@
     },
     {
         "id": 5,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-5.png",
         "cityName": "Boston",
         "postCode": "02101",
         "neighborhood": "Downtown Crossing",
@@ -156,7 +156,7 @@
     },
     {
         "id": 6,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-6.png",
         "cityName": "Seattle",
         "postCode": "98101",
         "neighborhood": "Pike Place",
@@ -187,7 +187,7 @@
     },
     {
         "id": 7,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-7.png",
         "cityName": "Washington",
         "postCode": "20001",
         "neighborhood": "Downtown",
@@ -218,7 +218,7 @@
     },
     {
         "id": 8,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-8.png",
         "cityName": "Miami",
         "postCode": "33101",
         "neighborhood": "Downtown",
@@ -249,7 +249,7 @@
     },
     {
         "id": 9,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-9.png",
         "cityName": "Las Vegas",
         "postCode": "89101",
         "neighborhood": "The Strip",
@@ -280,7 +280,7 @@
     },
     {
         "id": 10,
-        "pictureURL": "",
+        "pictureURL": "../assets/house-10.png",
         "cityName": "Austin",
         "postCode": "78701",
         "neighborhood": "Downtown",

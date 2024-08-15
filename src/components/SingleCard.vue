@@ -4,8 +4,6 @@ import { ref } from 'vue';
 defineProps( {
     house: Object,
 } )
-
-// const style = ref( `background-image: url(../assets/house-1.png)` );
 </script>
 
 <template>
@@ -14,7 +12,7 @@ defineProps( {
         <!-- make header clickable to open other houses in the same city -->
         <div class="wrapper">
             <section>
-                <img class="image" src="../assets/house-5.png" alt="some house picture" />
+                <img class="image" src="../assets/house-6.png" alt="some house picture" />
             </section>
             <aside>
                 <span class="title"> neighborhood:</span>
